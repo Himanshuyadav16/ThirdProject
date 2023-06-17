@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/apple/Desktop/code/second2project/javaCoreProject/RestApiPro">
+        <classes>
+            <class name="com.lise.testcases.GetMethod.GetResponse"/>
+            <class name="com.lise.testcases.PostMethod.PostResponse"/>
+            <class name="com.lise.testcases.PutMethod.PutResponse"/>
+            <class name="com.lise.testcases.PatchMethod.PatchResponse"/>
+            <class name="com.lise.testcases.DeleteMethod.DeleteResponse"/>
+        </classes>
+    </test>
+</suite>

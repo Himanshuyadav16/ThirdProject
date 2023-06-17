@@ -1,3 +1,7 @@
 /Users/apple/Desktop/code/second2project/javaCoreProject/RestApiPro/src/test/java/com/lise/utils/ApplicationProperties.java
+/Users/apple/Desktop/code/second2project/javaCoreProject/RestApiPro/src/test/java/com/lise/testcases/PutMethod/PutResponse.java
 /Users/apple/Desktop/code/second2project/javaCoreProject/RestApiPro/src/test/java/com/lise/BaseClass.java
-/Users/apple/Desktop/code/second2project/javaCoreProject/RestApiPro/src/test/java/com/lise/testcases/GetUsersReqres.java
+/Users/apple/Desktop/code/second2project/javaCoreProject/RestApiPro/src/test/java/com/lise/testcases/GetMethod/GetResponse.java
+/Users/apple/Desktop/code/second2project/javaCoreProject/RestApiPro/src/test/java/com/lise/testcases/PostMethod/PostResponse.java
+/Users/apple/Desktop/code/second2project/javaCoreProject/RestApiPro/src/test/java/com/lise/testcases/PatchMethod/PatchResponse.java
+/Users/apple/Desktop/code/second2project/javaCoreProject/RestApiPro/src/test/java/com/lise/testcases/DeleteMethod/DeleteResponse.java

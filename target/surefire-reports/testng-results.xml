@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="19" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-17T14:40:20 IST" name="All Test Suite" finished-at="2023-06-17T14:40:36 IST" duration-ms="16450">
+    <groups>
+    </groups>
+    <test started-at="2023-06-17T14:40:20 IST" name="/Users/apple/Desktop/code/second2project/javaCoreProject/RestApiPro" finished-at="2023-06-17T14:40:36 IST" duration-ms="16450">
+      <class name="com.lise.testcases.GetMethod.GetResponse">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.lise.testcases.GetMethod.GetResponse@4ae3c1cd]" started-at="2023-06-17T14:40:19 IST" name="beforeSuite" finished-at="2023-06-17T14:40:20 IST" duration-ms="628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="GetListTest()[pri:0, instance:com.lise.testcases.GetMethod.GetResponse@4ae3c1cd]" started-at="2023-06-17T14:40:20 IST" name="GetListTest" finished-at="2023-06-17T14:40:22 IST" duration-ms="2595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetListTest -->
+        <test-method signature="getDelayedResponseTest()[pri:0, instance:com.lise.testcases.GetMethod.GetResponse@4ae3c1cd]" started-at="2023-06-17T14:40:22 IST" name="getDelayedResponseTest" finished-at="2023-06-17T14:40:26 IST" duration-ms="3689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDelayedResponseTest -->
+        <test-method signature="getListResourceTest()[pri:0, instance:com.lise.testcases.GetMethod.GetResponse@4ae3c1cd]" started-at="2023-06-17T14:40:26 IST" name="getListResourceTest" finished-at="2023-06-17T14:40:26 IST" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListResourceTest -->
+        <test-method signature="getSingleResourceNotFoundTest()[pri:0, instance:com.lise.testcases.GetMethod.GetResponse@4ae3c1cd]" started-at="2023-06-17T14:40:26 IST" name="getSingleResourceNotFoundTest" finished-at="2023-06-17T14:40:27 IST" duration-ms="615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleResourceNotFoundTest -->
+        <test-method signature="getSingleResourceTest()[pri:0, instance:com.lise.testcases.GetMethod.GetResponse@4ae3c1cd]" started-at="2023-06-17T14:40:27 IST" name="getSingleResourceTest" finished-at="2023-06-17T14:40:28 IST" duration-ms="1355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleResourceTest -->
+        <test-method signature="getSingleTest()[pri:0, instance:com.lise.testcases.GetMethod.GetResponse@4ae3c1cd]" started-at="2023-06-17T14:40:28 IST" name="getSingleTest" finished-at="2023-06-17T14:40:29 IST" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleTest -->
+        <test-method signature="getSingleUserNotFoundTest()[pri:0, instance:com.lise.testcases.GetMethod.GetResponse@4ae3c1cd]" started-at="2023-06-17T14:40:29 IST" name="getSingleUserNotFoundTest" finished-at="2023-06-17T14:40:29 IST" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleUserNotFoundTest -->
+      </class> <!-- com.lise.testcases.GetMethod.GetResponse -->
+      <class name="com.lise.testcases.PutMethod.PutResponse">
+        <test-method signature="putUpdateTest()[pri:0, instance:com.lise.testcases.PutMethod.PutResponse@568bf312]" started-at="2023-06-17T14:40:34 IST" name="putUpdateTest" finished-at="2023-06-17T14:40:35 IST" duration-ms="819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putUpdateTest -->
+      </class> <!-- com.lise.testcases.PutMethod.PutResponse -->
+      <class name="com.lise.testcases.DeleteMethod.DeleteResponse">
+        <test-method signature="deleteResponseTest()[pri:0, instance:com.lise.testcases.DeleteMethod.DeleteResponse@589b3632]" started-at="2023-06-17T14:40:35 IST" name="deleteResponseTest" finished-at="2023-06-17T14:40:36 IST" duration-ms="653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteResponseTest -->
+      </class> <!-- com.lise.testcases.DeleteMethod.DeleteResponse -->
+      <class name="com.lise.testcases.PostMethod.PostResponse">
+        <test-method signature="postCreateTest()[pri:0, instance:com.lise.testcases.PostMethod.PostResponse@29f69090]" started-at="2023-06-17T14:40:29 IST" name="postCreateTest" finished-at="2023-06-17T14:40:30 IST" duration-ms="1005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCreateTest -->
+        <test-method signature="postLoginSuccessfulTest()[pri:0, instance:com.lise.testcases.PostMethod.PostResponse@29f69090]" started-at="2023-06-17T14:40:30 IST" name="postLoginSuccessfulTest" finished-at="2023-06-17T14:40:31 IST" duration-ms="715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postLoginSuccessfulTest -->
+        <test-method signature="postLoginUnSuccessfulTest()[pri:0, instance:com.lise.testcases.PostMethod.PostResponse@29f69090]" started-at="2023-06-17T14:40:31 IST" name="postLoginUnSuccessfulTest" finished-at="2023-06-17T14:40:32 IST" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postLoginUnSuccessfulTest -->
+        <test-method signature="postRegisterSuccessfulTest()[pri:0, instance:com.lise.testcases.PostMethod.PostResponse@29f69090]" started-at="2023-06-17T14:40:32 IST" name="postRegisterSuccessfulTest" finished-at="2023-06-17T14:40:32 IST" duration-ms="715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRegisterSuccessfulTest -->
+        <test-method signature="postRegisterUnSuccessfulTest()[pri:0, instance:com.lise.testcases.PostMethod.PostResponse@29f69090]" started-at="2023-06-17T14:40:32 IST" name="postRegisterUnSuccessfulTest" finished-at="2023-06-17T14:40:34 IST" duration-ms="1535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRegisterUnSuccessfulTest -->
+      </class> <!-- com.lise.testcases.PostMethod.PostResponse -->
+      <class name="com.lise.testcases.PatchMethod.PatchResponse">
+        <test-method signature="patchUpdateTest()[pri:0, instance:com.lise.testcases.PatchMethod.PatchResponse@ca263c2]" started-at="2023-06-17T14:40:35 IST" name="patchUpdateTest" finished-at="2023-06-17T14:40:35 IST" duration-ms="680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patchUpdateTest -->
+      </class> <!-- com.lise.testcases.PatchMethod.PatchResponse -->
+    </test> <!-- /Users/apple/Desktop/code/second2project/javaCoreProject/RestApiPro -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
