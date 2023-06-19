@@ -5,6 +5,7 @@ import io.restassured.RestAssured;
 import org.testng.annotations.BeforeSuite;
 
 public class BaseClass {
+    public  String accessToken=ApplicationProperties.INSTANCE.getTokens();
     @BeforeSuite
     public void beforeSuite() {
         RestAssured.baseURI = ApplicationProperties.INSTANCE.getUrl();

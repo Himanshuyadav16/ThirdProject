@@ -1,4 +1,4 @@
-package com.lise.testcases;
+package com.lise.testcases.GetMethod;
 
 import com.lise.BaseClass;
 import io.restassured.http.Method;
@@ -12,7 +12,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
-public class GetUsersReqres extends BaseClass {
+public class GetResponse extends BaseClass {
     @Test
     public void GetListTest() {
         Response response = getListUser();
