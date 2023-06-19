@@ -1,4 +1,4 @@
-package com.lise.testcases.GetMethod;
+package com.lise.testcases;
 
 import com.lise.BaseClass;
 import io.restassured.http.Method;

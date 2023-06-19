@@ -19,8 +19,5 @@ public enum ApplicationProperties {
         return properties.getProperty("url");
     }
 
-    public String getTokens() {
-        return properties.getProperty("tokens");
-    }
 }
 
