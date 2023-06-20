@@ -1,4 +1,4 @@
-package com.lise.testcases.DeleteMethod;
+package com.lise.testcases;
 
 import com.lise.BaseClass;
 import io.restassured.http.Method;
@@ -16,8 +16,8 @@ public class DeleteResponse extends BaseClass {
         Response response = deleteUser();
 
         assertThat(response.getStatusCode(), is(HttpStatus.SC_NO_CONTENT));
-    }
 
+    }
     // Delete Method
     public Response deleteUser() {
         Response response = given()
